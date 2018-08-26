@@ -1,16 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { HomePage } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    HomePage
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [HomePage]
 })
-export class AppModule { }
+export class EquityAnalysis { }
