@@ -1,10 +1,11 @@
 import { TestBed, async } from '@angular/core/testing';
 import { HomePage } from './app.component';
+import { EquityListComponent } from './equity-analysis/equity-list/equity-list.component';
 describe('EquityList', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        HomePage
+        HomePage,EquityListComponent
       ],
     }).compileComponents();
   }));
